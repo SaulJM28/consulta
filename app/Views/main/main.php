@@ -20,7 +20,7 @@
     </header>
     <?php endif; ?>
     <?php if(isset($content)): ?>
-    <main>
+    <main class = "container fluid">
         <?= view($content); ?>
     </main>
     <?php endif;?>
